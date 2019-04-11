@@ -14,4 +14,4 @@
       state: "{{ state }}"
       region: "{{ aws_region }}"
       disable_rollback: true
-      template: "repo2/oracle.yaml"
+      template: "oracle.yaml"
