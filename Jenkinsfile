@@ -11,7 +11,7 @@ pipeline {
          stage('checkout scm') {
              steps{
                  git branch: 'master',
-                     credentialsId: 'Github',
+                     credentialsId: 'github_jenkins',
                          url: 'https://github.com/oscarose/rdscft.git'
              }
          }
