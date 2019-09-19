@@ -135,7 +135,7 @@ Resources:
       AllowMajorVersionUpgrade:             false
       AutoMinorVersionUpgrade:              true
       BackupRetentionPeriod:               "21"
-      DBInstanceClass:                      db.m3.medium
+      DBInstanceClass:                      db.m4.large
       DBInstanceIdentifier:                !Join ["-", ["testrds", !Sub "${Environment}", !Ref "AWS::StackName"]]
       DBName:                               ICDL001
       #DBParameterGroupName:                 sqlse-12-0
